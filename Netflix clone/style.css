@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: black;
+    height: 3500px;
+}
+
+
+.main{
+    background-image: url("Assets/images/bgimg.png");
+    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top:0;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    height: 62px;
+}
+
+nav img{
+    color: red;
+    width: 85px;
+    text-decoration: double;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+    padding: 6px;
+
+}
+
+.hero{
+    color: white;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1){
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+#btn{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+#btn1{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-right: 20px;
+}
+
+input{
+    padding: 10px;
+    color: white;
+    background-color: inherit;
+    border: 1px solid white;
+    margin-right: 6px;
+}
+
+.seperation{
+   height: 6px;
+   max-width: 190vw;
+   background-color: rgb(79, 75, 75);
+}
+
+.seconddiv{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: center;
+    max-width: 70vw;
+    align-items: center;
+}
+
+.secimg img{
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg{
+    position: relative;
+}
+
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+
+.seconddiv > div :first-child{
+      font-size: 45px;
+      font-weight: bolder;
+}
+
+.seconddiv > div :nth-child(2){
+    font-size: 20px;
+}
+
+.faqbox{
+    display: flex;
+    background-color: rgb(69, 65, 65);
+    padding: 20px;
+    margin-top: 28px;
+    height: 20px;
+    align-items: center;
+    max-width: 70vw;
+    justify-content: space-between;
+    margin: 34px auto;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.faqbox:hover{
+    background-color: rgb(115, 117, 119);
+}
+
+.faq{
+    padding: 34px;
+}
+.faq h1{
+    text-align: center;
+    font-weight: 400vw;
+    
+}
+
+.inpt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-top: 100px;
+    max-width: 120vw;
+    
+}
+
+#h3id{
+    display: flex;
+    font-size:larger;
+    text-decoration-line: bolder;
+    justify-content: center;
+    margin-top: 34px;
+    align-items: center;
+}
+
+.content> :nth-child(1){
+    color: white;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 65px;
+    padding-left: 65px;
+
+}
+
+.content> :nth-child(2){
+    color: white;
+    padding-top: 45px;
+    margin-top: 34px;
+
+}
+
+
+
